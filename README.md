@@ -2,6 +2,7 @@
 SimpleIFAA可信生物认证支持指纹、面容等生物识别解决方案，支持超15亿台Android手机、iOS手机（支持iPhone5s以上手机），鸿蒙Next, 为支付宝、淘宝、12306、建设银行、交通银行、浦发信用卡、苏宁金融、国信证券、上海CA、中国电信等数十家企业App提供了底层本地生物认证能力；轻量接入、接入更简单，更便捷.
 
 IFAA 相关介绍： https://www.iifaa.org.cn
+接入文档可参考：https://esandinfo.yuque.com/yv6e1k/aa4qsg/lw66e4
 
 演示如下：
 
