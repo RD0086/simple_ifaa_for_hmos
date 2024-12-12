@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "simple IFAA demo",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@esand/sIfaaSDK": "file:../etasLibrary.har"
+  }
+}
+

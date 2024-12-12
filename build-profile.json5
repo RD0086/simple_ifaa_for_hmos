@@ -1,0 +1,54 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/pst/.ohos/config/default_sIfaaDemo_bICxxfQw6FbwZttPMzQVxHCM69o2cpOjZyfrOGi3Xi8=.cer",
+          "storePassword": "0000001B47C9D6BFA0F280AF3C0D03799A02BC0F5E5DA460B06170E6D3B2B13C8E1B3CE27F91211B490B3B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BED7E530F1DCE4E19AA5C2D403DBFE0C5CBDFEBC1112B36F3281511390C4AD531E9F940995D7E2E",
+          "profile": "/Users/pst/.ohos/config/default_sIfaaDemo_bICxxfQw6FbwZttPMzQVxHCM69o2cpOjZyfrOGi3Xi8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/pst/.ohos/config/default_sIfaaDemo_bICxxfQw6FbwZttPMzQVxHCM69o2cpOjZyfrOGi3Xi8=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
